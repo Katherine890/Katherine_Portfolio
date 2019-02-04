@@ -1362,9 +1362,40 @@ ul.project_nav > li, ul.client_nav li {
     display: inline-block;
     vertical-align: top;
 }
+
+#contact {
+    background-attachment: fixed;
+    background-image: url("img/NuPastel.jpg");
+    background-position: 50% 0;
+    background-repeat: repeat-y;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 750px;
+    position: relative;
+    z-index: 1;
+}
+
+#contact::after {
+    background: rgba(255, 255, 255, 0.9);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#contactHeading {
+    z-index: 3;
+}
+
 .contact--form {
     display: inline-block;
     width: 40%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    position: relative;
+    z-index: 1;
 }
 .adress {
     padding-top: 114px;
@@ -1397,10 +1428,46 @@ ul.project_nav > li, ul.client_nav li {
     border-color: #e9e9e9;
     border-radius: 0;
     height:50px;
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 16px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #808080;
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    letter-spacing: 3px;
+	text-transform:uppercase;
 }
 .contact--form form textarea.form-control {
     height: 200px;
     border-radius: 0;
+    display: block;
+    width: 100%;
+    height: 200px;
+    padding: 16px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #808080;
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    letter-spacing: 3px;
+	text-transform:uppercase;
 }
 .btn_primary {
     border: 2px solid #999;
@@ -1444,7 +1511,7 @@ ul.project_nav > li, ul.client_nav li {
     display: inline-block;
     margin-right: 2px;
 }
-.newslatter{
+/*.newslatter{
     background-attachment: fixed;
     background-image: url("img/sub_bg.jpg");
     background-position: 50% 0;
@@ -1460,10 +1527,10 @@ ul.project_nav > li, ul.client_nav li {
     position: absolute;
     top: 0;
     width: 100%;
-}
+}*/
 .newsletter {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     position: relative;
     z-index: 1;
 }
