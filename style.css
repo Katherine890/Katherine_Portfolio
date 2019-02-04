@@ -1138,6 +1138,19 @@ ul.project_nav > li, ul.client_nav li {
     text-transform: uppercase;
     width: 76px;
 }
+
+.githubLink a {
+    color: #333;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 8px 0 5px;
+    letter-spacing: 2px;
+    position: absolute;
+    text-align: left;
+    bottom: 30px;
+    left: 30px;
+}
 /*------------------------------------------------
 9. Chooseme Css
 --------------------------------------------------*/
@@ -1390,28 +1403,13 @@ ul.project_nav > li, ul.client_nav li {
 /* ---------------------------------------------------------
 11. Contact Css
 -----------------------------------------------------------*/
-#map {
-    height: 500px;
-}
-#map:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.7);
-}
 .add_cont {
     padding: 0 30px;
     position: absolute;
     top: 60px;
     width: 100%;
     left: 0;
-}
-.adress {
-    display: inline-block;
-    vertical-align: top;
+    z-index: 1;
 }
 
 #contact {
@@ -1442,38 +1440,15 @@ ul.project_nav > li, ul.client_nav li {
 
 .contact--form {
     display: inline-block;
-    width: 40%;
+    width: 70%;
     padding-top: 200px;
     padding-bottom: 200px;
     position: relative;
+    bottom: 30px;
     z-index: 1;
+    margin-left: 100px;
 }
-.adress {
-    padding-top: 114px;
-    padding-bottom: 114px;
-    padding-left: 8px;
-}
-.adress_icon {
-    display: inline-block;
-    width: 200px;
-    margin-right: 15px;
-}
-.adress_icon i {
-    background: #999 none repeat scroll 0 0;
-    border-radius: 30px;
-    color: #fff;
-    display: inline-block;
-    font-size: 22px;
-    padding: 10px;
-    margin-bottom: 16px;
-}
-.adress_icon > p {
-    font-family: 'lato';
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 0;
-    color: #fff;
-}
+
 .contact--form form input.form-control{
     box-shadow: none;
     border-color: #e9e9e9;
@@ -1530,6 +1505,21 @@ ul.project_nav > li, ul.client_nav li {
     line-height: 15px;
     padding: 10px 20px;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bottomLinks {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    bottom: 170px;
+    right: 100px;
+    display: inline;
+    margin-left: 30px;
+}
+
+.links a {
+    font-family: 'Lato', sans-serif;
+    display: inline;
+    margin-left: 30px;
 }
 /* ---------------------------------------------------------
 12. Partner and Newslatter Css
