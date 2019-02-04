@@ -32,6 +32,11 @@ Table of Index
 /* ---------------------------------------------------------
 1. Base css
 ------------------------------------------------------------*/
+@font-face {
+    font-family:'Exan-Regular';
+    src: url('fonts/Exan-Regular.ttf') 
+}
+
 
 .whychoose > .container > .row,
 .our_team > .container > .row {
@@ -79,6 +84,21 @@ hr {
 .fix {
     overflow: hidden;
 }
+
+#TitleHeading {
+    font-family:"Exan-Regular";
+}
+
+h1 {
+    font-family: "Exan-Regular", "arial";
+    src:url("fonts/Exan-Regular.ttf");
+}
+
+.big_title {
+    font-family: 'Exan-Regular', 'arial';
+    src:url("fonts/Exan-Regular.ttf");
+}
+
 
 h1,
 h2,
